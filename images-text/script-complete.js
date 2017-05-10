@@ -1,4 +1,4 @@
-function onStreamProcessed(text) {
+function onTextReady(text) {
   const urls = text.split('\n');
   for (const url of urls) {
     const image = document.createElement('img');
@@ -7,12 +7,10 @@ function onStreamProcessed(text) {
   }
 }
 
-function onSuccess(response) {
-  response.text().then(onStreamProcessed)
+function onResponse(response) {
+  return response.text();
 }
 
-function onError(error) {
-  console.log('Error: ' + error);
-}
-
-fetch('images.txt').then(onSuccess, onError);
+fetch('images.txt')
+    .then(onResponse)
+    .then(onTextReady);
