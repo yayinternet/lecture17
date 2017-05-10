@@ -9,6 +9,3 @@ This directory contains the example code from Lecture 17.
   - [.json fetch](albums/fetch-json.html)
 - Fetching album info, object-oriented:
   - [Discography page](oo-albums/discography.html)
-
-See live examples here:
-[https://yayinternet.github.io/lecture17/](https://yayinternet.github.io/lecture17/)
