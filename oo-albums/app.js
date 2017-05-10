@@ -18,7 +18,7 @@ class App {
     this._onJsonReady = this._onJsonReady.bind(this);
     this._sortAlbums = this._sortAlbums.bind(this);
 
-    this.albumInfo = {};
+    this.albumInfo = [];
 
     const ascElement = document.querySelector('#asc');
     const ascButton = new SortButton(
