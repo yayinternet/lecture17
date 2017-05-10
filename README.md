@@ -9,3 +9,5 @@ This directory contains the example code from Lecture 17.
   - [.json fetch](albums/fetch-json.html)
 - Fetching album info, object-oriented:
   - [Discography page](oo-albums/discography.html)
+- Fetching album info from Spotify:
+  - [Album-Spotify search](spotify-albums/spotify-discography.html)
