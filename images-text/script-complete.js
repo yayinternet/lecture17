@@ -1,7 +1,7 @@
 function onTextReady(text) {
   const urls = text.split('\n');
   for (const url of urls) {
-    const image = document.createElement('img');
+    const image = new Image();
     image.src = url;
     document.body.append(image);
   }
