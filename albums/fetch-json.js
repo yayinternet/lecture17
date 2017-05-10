@@ -8,7 +8,7 @@ function onJsonReady(json) {
   // Add album images to body.
   for (const album of albums) {
     const image = new Image();
-    image.src = albumInfo.url;
+    image.src = album.url;
     document.body.append(image);
   }
 }
