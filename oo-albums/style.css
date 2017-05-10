@@ -1,0 +1,16 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  font-size: 14pt;
+}
+
+img {
+  width: 200px;
+  margin: 5px;
+}
+
+#album-container {
+  padding: 20px 0;
+}
