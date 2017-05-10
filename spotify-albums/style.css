@@ -10,3 +10,12 @@ img {
 #album-container {
   padding: 20px 0;
 }
+
+input[type=text] {
+  width: 500px;
+}
+
+input {
+  font-size: 14pt;
+  margin: 5px;
+}
