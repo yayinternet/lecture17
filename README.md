@@ -7,3 +7,6 @@ This directory contains the example code from Lecture 17.
 - Albums:
   - [.txt fetch](albums/fetch-text.html)
   - [.json fetch](albums/fetch-json.html)
+
+See live examples here:
+[https://yayinternet.github.io/lecture17/](https://yayinternet.github.io/lecture17/)
